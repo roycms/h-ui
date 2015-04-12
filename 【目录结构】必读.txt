@@ -1,0 +1,29 @@
+Copyright：h-ui.net	Last Modify：guojunhui	13:14 2014/7/4
+===================================================================
+Lib/	库文件
+├── html5.js				html5插件，让低版本IE支持html5元素
+├── DD_belatedPNG_0.0.8a-min.js	解决IE6png透明
+├── swfobject.js			Flash插件
+├── expressInstall.swf  		检查flash插件
+├── jquery.min.js			jQuery类库
+├── unslider.min.js			Unslider图片滚动效果插件
+├── stickUp.min.js			让页面元素"固定"位置
+├── pagenav.cn.js			翻页插件
+├── bootstrap-modal.js		bootstrap的弹出层插件
+├── bootstrap-modalmanager.js	让bootstrap多个modal，支持ajax插件
+├── handlebars.js			js模版引擎
+├── waterfall.min.js			瀑布流布局插件
+├── respond.min.js			让IE兼容media
+
+static/	资源
+├── h-ui/	H-ui特有资源
+│    ├── css/		样式
+│    │    ├── H-ui.reset.css		CSS Reset
+│    │    ├── H-ui.css			H-ui基础样式
+│    │    ├── font-awesome.min.css		图标字体样式
+│    │    ├── font-awesome-ie7.min.css	图标字体样式（IE7兼容）
+│    │    ├── style.css			自己的项目样式
+│    ├── images/	图片资源
+│    ├── font	图标字体文件
+│    ├── js/
+│    │    ├── H-ui.js			H-ui核心脚本

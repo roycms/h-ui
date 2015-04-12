@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+/*1.1 布局*/
+.wp{ width:1000px;}/*网页整体宽度*/
+/*1.2 文字*/
+a{color:#333}/*主链接颜色*/
+.sublink:link,.sublink:visited,.sublink:active{}/*次链颜色*/
+a:hover,a:focus,.c_main,.c_main a{color:#06c}/*链接经过颜色，主色调*/
+.c_sub,.c_sub a{}/*次文字颜色*/
+.c_title{}/*标题颜色*/
+.c_content{ color:#818181}/*内容文字颜色*/
+.c_Auxiliary{}/*辅助颜色*/
+
+.title-big{ font-size:22px; line-height:30px;}/*首屏标题*/
+.title-large{}
+
+/*2.1 头部*/
+.header{}
+/*2.1.1*/
+.logo{}
+/*2.1.2主导航*/
+/*2.2 尾部*/
+.footer{border-top:1px solid #E8E8E8;margin-top:20px;height:60px;font-family:tahoma,Arial;font-size:12px;color:#999;line-height:22px;text-align:center}
+.footer p{padding-top:15px}
+.footer a,footer a:hover{color:#999}
